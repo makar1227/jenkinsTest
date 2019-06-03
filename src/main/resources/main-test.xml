@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name ="Main">
+    <listeners>
+        <listener class-name="listener.SuiteListener"/>
+    </listeners>
+    <test name="MainScenario">
+        <classes>
+            <class name="test.MainPageTest"/>
+            <class name="test.ShowsPageTest"/>
+        </classes>
+    </test>
+</suite>

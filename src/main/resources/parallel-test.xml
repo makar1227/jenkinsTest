@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name ="Parallel">
+    <listeners>
+        <listener class-name="listener.SuiteListener"/>
+    </listeners>
+    <test name="ParallelScenario">
+        <classes>
+            <class name="test.MainPageTest"/>
+        </classes>
+    </test>
+</suite>
